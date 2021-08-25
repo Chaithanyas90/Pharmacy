@@ -1,0 +1,426 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Host\\Pharmacy.Host.csproj": {}
+  },
+  "projects": {
+    "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Api\\Pharmacy.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Api\\Pharmacy.Api.csproj",
+        "projectName": "Pharmacy.Api",
+        "projectPath": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Api\\Pharmacy.Api.csproj",
+        "packagesPath": "C:\\Users\\chaithanya.s\\.nuget\\packages\\",
+        "outputPath": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chaithanya.s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Dal\\Pharmacy.Dal.csproj": {
+                "projectPath": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Dal\\Pharmacy.Dal.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Common\\Pharmacy.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Common\\Pharmacy.Common.csproj",
+        "projectName": "Pharmacy.Common",
+        "projectPath": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Common\\Pharmacy.Common.csproj",
+        "packagesPath": "C:\\Users\\chaithanya.s\\.nuget\\packages\\",
+        "outputPath": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chaithanya.s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Api\\Pharmacy.Api.csproj": {
+                "projectPath": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Api\\Pharmacy.Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Controllers\\Pharmacy.Controllers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Controllers\\Pharmacy.Controllers.csproj",
+        "projectName": "Pharmacy.Controllers",
+        "projectPath": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Controllers\\Pharmacy.Controllers.csproj",
+        "packagesPath": "C:\\Users\\chaithanya.s\\.nuget\\packages\\",
+        "outputPath": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Controllers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chaithanya.s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Api\\Pharmacy.Api.csproj": {
+                "projectPath": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Api\\Pharmacy.Api.csproj"
+              },
+              "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Logic\\Pharmacy.Logic.csproj": {
+                "projectPath": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Logic\\Pharmacy.Logic.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Dal\\Pharmacy.Dal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Dal\\Pharmacy.Dal.csproj",
+        "projectName": "Pharmacy.Dal",
+        "projectPath": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Dal\\Pharmacy.Dal.csproj",
+        "packagesPath": "C:\\Users\\chaithanya.s\\.nuget\\packages\\",
+        "outputPath": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Dal\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chaithanya.s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Host\\Pharmacy.Host.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Host\\Pharmacy.Host.csproj",
+        "projectName": "Pharmacy.Host",
+        "projectPath": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Host\\Pharmacy.Host.csproj",
+        "packagesPath": "C:\\Users\\chaithanya.s\\.nuget\\packages\\",
+        "outputPath": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Host\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chaithanya.s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Api\\Pharmacy.Api.csproj": {
+                "projectPath": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Api\\Pharmacy.Api.csproj"
+              },
+              "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Common\\Pharmacy.Common.csproj": {
+                "projectPath": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Common\\Pharmacy.Common.csproj"
+              },
+              "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Controllers\\Pharmacy.Controllers.csproj": {
+                "projectPath": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Controllers\\Pharmacy.Controllers.csproj"
+              },
+              "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Dal\\Pharmacy.Dal.csproj": {
+                "projectPath": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Dal\\Pharmacy.Dal.csproj"
+              },
+              "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Logic\\Pharmacy.Logic.csproj": {
+                "projectPath": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Logic\\Pharmacy.Logic.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[13.13.2, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Logic\\Pharmacy.Logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Logic\\Pharmacy.Logic.csproj",
+        "projectName": "Pharmacy.Logic",
+        "projectPath": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Logic\\Pharmacy.Logic.csproj",
+        "packagesPath": "C:\\Users\\chaithanya.s\\.nuget\\packages\\",
+        "outputPath": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Logic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chaithanya.s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Api\\Pharmacy.Api.csproj": {
+                "projectPath": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Api\\Pharmacy.Api.csproj"
+              },
+              "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Common\\Pharmacy.Common.csproj": {
+                "projectPath": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Common\\Pharmacy.Common.csproj"
+              },
+              "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Dal\\Pharmacy.Dal.csproj": {
+                "projectPath": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Dal\\Pharmacy.Dal.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

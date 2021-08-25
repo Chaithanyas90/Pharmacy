@@ -1,0 +1,9 @@
+D:\Learnings\Pharmacy\Pharmacy.Dal\bin\Debug\netcoreapp3.1\Pharmacy.Dal.deps.json
+D:\Learnings\Pharmacy\Pharmacy.Dal\bin\Debug\netcoreapp3.1\Pharmacy.Dal.dll
+D:\Learnings\Pharmacy\Pharmacy.Dal\bin\Debug\netcoreapp3.1\Pharmacy.Dal.pdb
+D:\Learnings\Pharmacy\Pharmacy.Dal\obj\Debug\netcoreapp3.1\Pharmacy.Dal.csprojAssemblyReference.cache
+D:\Learnings\Pharmacy\Pharmacy.Dal\obj\Debug\netcoreapp3.1\Pharmacy.Dal.AssemblyInfoInputs.cache
+D:\Learnings\Pharmacy\Pharmacy.Dal\obj\Debug\netcoreapp3.1\Pharmacy.Dal.AssemblyInfo.cs
+D:\Learnings\Pharmacy\Pharmacy.Dal\obj\Debug\netcoreapp3.1\Pharmacy.Dal.csproj.CoreCompileInputs.cache
+D:\Learnings\Pharmacy\Pharmacy.Dal\obj\Debug\netcoreapp3.1\Pharmacy.Dal.dll
+D:\Learnings\Pharmacy\Pharmacy.Dal\obj\Debug\netcoreapp3.1\Pharmacy.Dal.pdb

@@ -1,0 +1,16 @@
+D:\Learnings\Pharmacy\Pharmacy.Logic\bin\Debug\netcoreapp3.1\Pharmacy.Logic.deps.json
+D:\Learnings\Pharmacy\Pharmacy.Logic\bin\Debug\netcoreapp3.1\Pharmacy.Logic.dll
+D:\Learnings\Pharmacy\Pharmacy.Logic\bin\Debug\netcoreapp3.1\Pharmacy.Logic.pdb
+D:\Learnings\Pharmacy\Pharmacy.Logic\bin\Debug\netcoreapp3.1\Pharmacy.Api.dll
+D:\Learnings\Pharmacy\Pharmacy.Logic\bin\Debug\netcoreapp3.1\Pharmacy.Common.dll
+D:\Learnings\Pharmacy\Pharmacy.Logic\bin\Debug\netcoreapp3.1\Pharmacy.Dal.dll
+D:\Learnings\Pharmacy\Pharmacy.Logic\bin\Debug\netcoreapp3.1\Pharmacy.Api.pdb
+D:\Learnings\Pharmacy\Pharmacy.Logic\bin\Debug\netcoreapp3.1\Pharmacy.Common.pdb
+D:\Learnings\Pharmacy\Pharmacy.Logic\bin\Debug\netcoreapp3.1\Pharmacy.Dal.pdb
+D:\Learnings\Pharmacy\Pharmacy.Logic\obj\Debug\netcoreapp3.1\Pharmacy.Logic.csprojAssemblyReference.cache
+D:\Learnings\Pharmacy\Pharmacy.Logic\obj\Debug\netcoreapp3.1\Pharmacy.Logic.AssemblyInfoInputs.cache
+D:\Learnings\Pharmacy\Pharmacy.Logic\obj\Debug\netcoreapp3.1\Pharmacy.Logic.AssemblyInfo.cs
+D:\Learnings\Pharmacy\Pharmacy.Logic\obj\Debug\netcoreapp3.1\Pharmacy.Logic.csproj.CoreCompileInputs.cache
+D:\Learnings\Pharmacy\Pharmacy.Logic\obj\Debug\netcoreapp3.1\Pharmacy.Logic.csproj.CopyComplete
+D:\Learnings\Pharmacy\Pharmacy.Logic\obj\Debug\netcoreapp3.1\Pharmacy.Logic.dll
+D:\Learnings\Pharmacy\Pharmacy.Logic\obj\Debug\netcoreapp3.1\Pharmacy.Logic.pdb

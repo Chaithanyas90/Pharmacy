@@ -1,0 +1,40 @@
+{
+  "ListInfo": [
+    {
+      "Id": 0,
+      "FullName": "Ramipril",
+      "Brand": "Altace",
+      "Price": 20.00,
+      "Quantity": 10,
+      "ExpiryDate": "8/25/2021 6:16:01 PM",
+      "Notes": "Used for X disease"
+    },
+    {
+      "Id": 1,
+      "FullName": "Glimepiride",
+      "Brand": "Amaryl",
+      "Price": 20.00,
+      "Quantity": 10,
+      "ExpiryDate": "8/25/2021 6:16:01 PM",
+      "Notes": "Used for y disease"
+    },
+    {
+      "Id": 2,
+      "FullName": "Zolpidem",
+      "Brand": "Ambien",
+      "Price": 20.00,
+      "Quantity": 112,
+      "ExpiryDate": "8/25/2021 12:00:00 AM",
+      "Notes": "Used for z disease"
+    },
+    {
+      "Id": 3,
+      "FullName": "Citalopram",
+      "Brand": "Cardizem",
+      "Price": 10.00,
+      "Quantity": 112,
+      "ExpiryDate": "8/25/2021 12:00:00 AM",
+      "Notes": "Used for XYZ disease"
+    }
+  ]
+}
