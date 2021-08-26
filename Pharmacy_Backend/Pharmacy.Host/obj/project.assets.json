@@ -7086,11 +7086,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Host\\Pharmacy.Host.csproj",
+      "projectUniqueName": "D:\\Learnings\\Pharmacy_Test\\Pharmacy_Backend\\Pharmacy.Host\\Pharmacy.Host.csproj",
       "projectName": "Pharmacy.Host",
-      "projectPath": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Host\\Pharmacy.Host.csproj",
+      "projectPath": "D:\\Learnings\\Pharmacy_Test\\Pharmacy_Backend\\Pharmacy.Host\\Pharmacy.Host.csproj",
       "packagesPath": "C:\\Users\\chaithanya.s\\.nuget\\packages\\",
-      "outputPath": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Host\\obj\\",
+      "outputPath": "D:\\Learnings\\Pharmacy_Test\\Pharmacy_Backend\\Pharmacy.Host\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7109,20 +7109,20 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Api\\Pharmacy.Api.csproj": {
-              "projectPath": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Api\\Pharmacy.Api.csproj"
+            "D:\\Learnings\\Pharmacy_Test\\Pharmacy_Backend\\Pharmacy.Api\\Pharmacy.Api.csproj": {
+              "projectPath": "D:\\Learnings\\Pharmacy_Test\\Pharmacy_Backend\\Pharmacy.Api\\Pharmacy.Api.csproj"
             },
-            "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Common\\Pharmacy.Common.csproj": {
-              "projectPath": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Common\\Pharmacy.Common.csproj"
+            "D:\\Learnings\\Pharmacy_Test\\Pharmacy_Backend\\Pharmacy.Common\\Pharmacy.Common.csproj": {
+              "projectPath": "D:\\Learnings\\Pharmacy_Test\\Pharmacy_Backend\\Pharmacy.Common\\Pharmacy.Common.csproj"
             },
-            "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Controllers\\Pharmacy.Controllers.csproj": {
-              "projectPath": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Controllers\\Pharmacy.Controllers.csproj"
+            "D:\\Learnings\\Pharmacy_Test\\Pharmacy_Backend\\Pharmacy.Controllers\\Pharmacy.Controllers.csproj": {
+              "projectPath": "D:\\Learnings\\Pharmacy_Test\\Pharmacy_Backend\\Pharmacy.Controllers\\Pharmacy.Controllers.csproj"
             },
-            "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Dal\\Pharmacy.Dal.csproj": {
-              "projectPath": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Dal\\Pharmacy.Dal.csproj"
+            "D:\\Learnings\\Pharmacy_Test\\Pharmacy_Backend\\Pharmacy.Dal\\Pharmacy.Dal.csproj": {
+              "projectPath": "D:\\Learnings\\Pharmacy_Test\\Pharmacy_Backend\\Pharmacy.Dal\\Pharmacy.Dal.csproj"
             },
-            "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Logic\\Pharmacy.Logic.csproj": {
-              "projectPath": "D:\\Learnings\\Pharmacy\\Pharmacy_Backend\\Pharmacy.Logic\\Pharmacy.Logic.csproj"
+            "D:\\Learnings\\Pharmacy_Test\\Pharmacy_Backend\\Pharmacy.Logic\\Pharmacy.Logic.csproj": {
+              "projectPath": "D:\\Learnings\\Pharmacy_Test\\Pharmacy_Backend\\Pharmacy.Logic\\Pharmacy.Logic.csproj"
             }
           }
         }
