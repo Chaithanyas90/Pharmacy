@@ -33,6 +33,14 @@ export class MedicineListComponent implements OnInit {
     this.getMedicineList();    
   }
 
+  getBackgroundColor(medicine:Medicine){
+    
+    var color:string;
+    if(medicine.quantity < 10){
+      color = "yellow";
+    }
+    return color;
+  }
   getMedicineList(){
     this.appService.getMedicineList().subscribe((response) => 
     {

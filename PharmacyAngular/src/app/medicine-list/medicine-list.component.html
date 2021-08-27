@@ -10,11 +10,9 @@
     </th>
   </tr>
 
-  <tr *ngFor = "let medicine of filteredMedicineList; let i = index">
+  <tr [ngStyle]="{'background-color':getBackgroundColor(medicine)}" *ngFor = "let medicine of filteredMedicineList; let i = index">
     <td *ngFor = "let column of headers">
       {{medicine[column]}}
-    </td>
-    
+    </td>    
   </tr>
-
 </table>
