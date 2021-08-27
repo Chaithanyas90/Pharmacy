@@ -11,10 +11,20 @@ import { AppService } from '../shared/services/app.service';
 })
 export class MedicineListComponent implements OnInit {
 
-  public MedicineList: Medicine[] = [];
-  searchString:string = ""
-  title:any = 'CustomTable';
+  public medicineList: Medicine[] = [];
+  public filteredMedicineList: Medicine[] = [];
+  private _searchString:string;
+  get searchString(): string{ return this._searchString;} 
+  set searchString(value:string)
+  {
+    this._searchString = value;
+    this.filteredMedicineList = this.filteredMedicines(value);
+  }
 
+  filteredMedicines(searchString)
+  {
+    return  this.medicineList.filter(medicine => medicine.fullName.toLowerCase().indexOf(searchString.toLowerCase()) !== -1) 
+  }
   headers: any = ["id", "fullName", "brand", "price", "expiryDate", "quantity"];
 
   constructor(private appService:AppService, private notificationService: NotificationService) { }
@@ -28,7 +38,8 @@ export class MedicineListComponent implements OnInit {
     {
       if(response && response[AppConstants.response.responseResult] == "Success")
       {
-        this.MedicineList = response[AppConstants.response.listInfo]
+        this.medicineList = response[AppConstants.response.listInfo];
+        this.filteredMedicineList = this.medicineList;
       }else{
         this.notificationService.showErrorMessage("Error occured while fetching the list of medicines", "Medicine List");
       }

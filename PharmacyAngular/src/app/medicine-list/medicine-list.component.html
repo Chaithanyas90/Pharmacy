@@ -1,16 +1,16 @@
 <div class="test">
-  <input type="text" placeholder="Serach any fields"/>
+  <input type="text" [(ngModel)]="searchString" placeholder="Serach any fields"/>
   <button class="add-button" routerLink="/addItem">Add Medicine</button>
 </div>
  
 <table id="medicines">
   <tr>
     <th *ngFor = "let column of headers">
-      {{column}}
+      {{column | uppercase}}
     </th>
   </tr>
 
-  <tr *ngFor = "let medicine of MedicineList; let i = index">
+  <tr *ngFor = "let medicine of filteredMedicineList; let i = index">
     <td *ngFor = "let column of headers">
       {{medicine[column]}}
     </td>

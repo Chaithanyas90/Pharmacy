@@ -1,1 +1,42 @@
-<p>add-meddicine works!</p>
+<div>
+    <h1>ADD MEDICINE</h1>
+    <form [formGroup]="addItemForm" (ngSubmit)="addItem()">
+        <div class="form-group">
+            <label>Name: </label>
+            <input type="text" formControlName="fullName" id="fullName" class="form-control"/>
+            <div *ngIf="validateForms.fullName.touched && validateForms.fullName.invalid" class="alert alert-danger">
+            </div>
+        </div>
+        <div class="form-group">
+            <label>Brand: </label>
+            <input type="text" formControlName="brand" id="brand" class="form-control"/>
+            <div *ngIf="validateForms.brand.touched && validateForms.brand.invalid" class="alert alert-danger">
+            </div>
+        </div>
+        <div class="form-group">
+            <label>Price: </label>
+            <input type="number" formControlName="price" id="price" class="form-control"/>
+            <div *ngIf="validateForms.price.touched && validateForms.price.invalid" class="alert alert-danger">
+            </div>
+        </div>
+        <div class="form-group">
+            <label>Expiry: </label>
+            <input type="date" formControlName="expiryDate" id="expiryDate" class="form-control"/>
+            <div *ngIf="validateForms.expiryDate.touched && validateForms.expiryDate.invalid" class="alert alert-danger">
+            </div>
+        </div>
+        <div class="form-group">
+            <label>Quantity: </label>
+            <input type="number" formControlName="quantity" id="quantity" class="form-control"/>
+            <div *ngIf="validateForms.quantity.touched && validateForms.quantity.invalid" class="alert alert-danger">
+            </div>
+        </div>
+        <div class="form-group">
+            <label>Notes: </label>
+            <input type="text" formControlName="notes" id="notes" class="form-control"/>
+            <div *ngIf="validateForms.notes.touched && validateForms.notes.invalid" class="alert alert-danger">
+            </div>
+        </div>
+        <button class="btn btn-primary submit_button">Add Medicine</button>
+    </form>
+</div>
