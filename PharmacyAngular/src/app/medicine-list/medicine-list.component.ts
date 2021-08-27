@@ -12,6 +12,10 @@ import { AppService } from '../shared/services/app.service';
 export class MedicineListComponent implements OnInit {
 
   public MedicineList: Medicine[] = [];
+  searchString:string = ""
+  title:any = 'CustomTable';
+
+  headers: any = ["id", "fullName", "brand", "price", "expiryDate", "quantity"];
 
   constructor(private appService:AppService, private notificationService: NotificationService) { }
 
@@ -26,11 +30,11 @@ export class MedicineListComponent implements OnInit {
       {
         this.MedicineList = response[AppConstants.response.listInfo]
       }else{
-        //this.notificationService.showErrorMessage("Error occured while fetching the list of medicines", "Medicine List");
+        this.notificationService.showErrorMessage("Error occured while fetching the list of medicines", "Medicine List");
       }
     },
     (error) => {
-      //this.notificationService.showErrorMessage("Error occured while fetching the list of medicines", "Medicine List");
+      this.notificationService.showErrorMessage("Error occured while fetching the list of medicines", "Medicine List");
     });
   }
 }
